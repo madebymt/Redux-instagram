@@ -1,8 +1,10 @@
 
+import { routerReducer } from 'react-router-redux';
 
-function comments(state=[], action){
+
+function Comments(state=[], action){
     console.log(state,action)
     return state;
 }
 
-export default comments
+export default Comments
