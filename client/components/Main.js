@@ -7,7 +7,7 @@ const Main  = React.createClass({
        return(
           <div>
             <h1>
-               <Link to='/'>  Reduxstagram </Link>
+               <Link to='/'>  Ruby try instagram </Link>
              </h1>
              {React.cloneElement(this.props.children, this.props) }
           </div>
